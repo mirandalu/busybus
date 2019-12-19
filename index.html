@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"
+    <meta charset="utf-8">
+    <title>Busy Bus App</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <section class="container">
+        <div class="status-bar">
+          <img src="../images/status_bar.png" alt="status bar">
+        </div>
+<!-- beginning of navbar -->
+        <section class="nav-bar">
+            <div class="arrow-left">
+              <img src="../images/back_icon.png" alt="arrow">
+            </div>
+
+            <div class="bus-stop">
+              <h1> Washington & State </h1>
+            </div>
+
+            <div class="fav-icon">
+              <img src="../images/fav_icon.png" alt="favorite route">
+            </div>
+          </div>
+        </section>
+<!-- searchbar -->
+        <section class="search-container">
+          <div class="searchbar">
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search for a line...">
+            </form>
+          </div>
+        </section>
+<!-- this is the bus routes and arrival frequency -->
+          <section class="bus-routes">
+<!-- row 1 -->
+            <div class="wrapper">
+              <div class="bus-line eastbound">
+                <h2>60</h2>
+              </div>
+
+              <div class="destination">
+                <h1>Randolph/Harbor Dr</h1>
+                <h5>Eastbound</h5>
+              </div>
+
+              <div class="arrival-frequency">
+                <h1>2min</h1>
+                <h5>Every 20 min</h5>
+              </div>
+            </div>
+<!-- row 2 -->
+            <div class="wrapper">
+              <div class="bus-line eastbound">
+                <h2>124</h2>
+              </div>
+
+              <div class="destination">
+                <h1>Navy Pier</h1>
+                <h5>Eastbound</h5>
+              </div>
+
+              <div class="arrival-frequency">
+                <h1>6min</h1>
+                <h5>Every 10 min</h5>
+              </div>
+            </div>
+<!-- row 3 -->
+            <div class="wrapper">
+              <div class="bus-line northbound">
+                <h2>151</h2>
+              </div>
+
+              <div class="destination">
+                <h1>Devon/Clark</h1>
+                <h5>Northbound</h5>
+              </div>
+
+              <div class="arrival-frequency">
+              <h1>9min</h1>
+                <h5>Every 16 min</h5>
+              </div>
+            </div>
+
+<!-- row 4 -->
+            <div class="wrapper">
+              <div class="bus-line southbound">
+                <h2>J14</h2>
+              </div>
+
+              <div class="destination">
+                <h1>103rd/Stony Island</h1>
+                <h5>Southbound</h5>
+              </div>
+
+              <div class="arrival-frequency">
+                <h1>11min</h1>
+                <h5>Every 15 min</h5>
+              </div>
+            </div>
+<!-- row 5 -->
+            <div class="wrapper">
+              <div class="bus-line southbound">
+                <h2>124</h2>
+              </div>
+
+              <div class="destination">
+                <h1>Navy Pier</h1>
+                <h5>Southbound</h5>
+              </div>
+
+              <div class="arrival-frequency">
+                <h1>13min</h1>
+                <h5>Every 10 min</h5>
+              </div>
+            </div>
+
+<!-- row 6 -->
+            <div class="wrapper">
+              <div class="bus-line reroute">
+                  <h2>6x</h2>
+              </div>
+
+              <div class="destination alert1">
+                <h1>Jackson Park Express</h1>
+                <h5>Reroute</h5>
+              </div>
+
+              <div id="frequency">
+                <h1>N/A</h1>
+              </div>
+            </div>
+
+<!-- row 7 -->
+            <div class="wrapper">
+                <div class="bus-line interruption">
+                  <h2>4</h2>
+                </div>
+
+                <div class="destination alert2">
+                  <h1>Cottage Grove</h1>
+                  <h5>Out of Service</h5>
+                </div>
+
+                <div class="arrival-frequency">
+                  <h1>N/A</h1>
+                  <h5>Resumes 12:10 am</h5>
+                </div>
+              </div>
+
+<!-- row 8 -->
+            <div class="wrapper">
+                <div class="bus-line interruption">
+                  <h2>20</h2>
+                </div>
+
+                <div class="destination alert2">
+                  <h1>Madison</h1>
+                  <h5>Out of Service</h5>
+                </div>
+
+                <div class="arrival-frequency">
+                  <h1>N/A</h1>
+                  <h5>Resumes 12:10 am</h5>
+                </div>
+              </div>
+
+<!-- row 9 -->
+              <div class="wrapper">
+                <div class="bus-line interruption">
+                  <h2>157</h2>
+                </div>
+
+                <div class="destination alert2">
+                  <h1>Streeterville/Taylor</h1>
+                  <h5>Out of Service</h5>
+                </div>
+
+                <div class="arrival-frequency">
+                  <h1>N/A</h1>
+                  <h5>Resumes 6:00 am</h5>
+                </div>
+              </div>
+
+
+          </section>
+          </section>
+  </body>
+  </html>

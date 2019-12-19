@@ -1,0 +1,159 @@
+*, *:before, *:after {
+  box-sizing: border-box
+}
+
+body {
+  font-family: 'SF Pro text' , Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  background-color: #333;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.status-bar {
+  width: 100%;
+  height: 18px;
+}
+
+.nav-bar {
+  background-color: #262C60;
+  width: 100%;
+  height: 64px;
+}
+
+.arrow-left{
+  float: left;
+  width: 5%;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.bus-stop {
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 85px;
+}
+
+.fav-icon {
+  float: right;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+
+.search-container{
+  width: 100%;
+  height: 45px;
+  background-color: #606597;
+}
+
+.search-container input {
+  width: 95%;
+  padding: 6px;
+  margin: 5px 10px;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 10px;
+}
+/** this applies to each individual row of bus stops **/
+.bus-routes {
+  background-color: white;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #979797;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+/** applies to bus line number **/
+.bus-line {
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 5px;
+  background: #47905C;
+  height: 28px;
+  width: 15%;
+  border-radius: 12px;
+}
+
+.destination {
+  display:inline-block;
+  width: 50%;
+}
+
+.arrival-frequency {
+  float: right;
+  text-align: right;
+  padding-top: 2px;
+  padding-right: 10px;
+}
+
+/** font styles for bus stops **/
+.bus-routes h1 {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: black;
+  padding-top: 0px;
+  padding-left: 5px;
+  }
+
+.bus-routes h5 {
+  font-size: 1em;
+  font-weight: 400;
+  padding-top: 4px;
+  padding-left: 5px;
+  }
+
+.nav-bar h1 {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#frequency {
+  float: right;
+  padding-top:10px;
+  padding-right:10px;
+  width: 12%;
+}
+/** bus number **/
+.bus-line h2 {
+  font-size: 1.6em;
+  color: white;
+}
+
+.northbound {
+  background-color: #FF7A00;
+}
+
+.southbound {
+  background-color:#6DC1EB;
+}
+
+.reroute {
+  background-color:#E33131;
+}
+
+.interruption {
+  background-color: #ED02D5;
+}
+
+.alert1 h5 {
+  color: #007AFF;
+}
+
+.alert2 h5 {
+  color: red;
+}
