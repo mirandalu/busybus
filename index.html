@@ -13,20 +13,21 @@
           <img src="../images/status_bar.png" alt="status bar">
         </div>
 <!-- beginning of navbar -->
-        <section class="nav-bar">
-            <div class="arrow-left">
+        <nav class="nav-bar">
+          <ul>
+            <li class="arrow-left">
               <img src="../images/back_icon.png" alt="arrow">
-            </div>
+            </li>
 
-            <div class="bus-stop">
+            <li class="bus-stop">
               <h1> Washington & State </h1>
-            </div>
+            </li>
 
-            <div class="fav-icon">
+            <li class="fav-icon">
               <img src="../images/fav_icon.png" alt="favorite route">
-            </div>
-          </div>
-        </section>
+            </li>
+          </ul>
+        </nav>
 <!-- searchbar -->
         <section class="search-container">
           <div class="searchbar">
@@ -36,158 +37,173 @@
           </div>
         </section>
 <!-- this is the bus routes and arrival frequency -->
-          <section class="bus-routes">
-<!-- row 1 -->
-            <div class="wrapper">
-              <div class="bus-line eastbound">
-                <h2>60</h2>
-              </div>
 
-              <div class="destination">
+<!-- row 1 -->
+        <section class="row">
+            <ul class="wrapper">
+              <li class="bus-line eastbound">
+                <h2>60</h2>
+              </li>
+
+              <li class="destination">
                 <h1>Randolph/Harbor Dr</h1>
                 <h5>Eastbound</h5>
-              </div>
+              </li>
 
-              <div class="arrival-frequency">
-                <h1>2min</h1>
+              <li class="arrival-frequency">
+                <h1>2 min</h1>
                 <h5>Every 20 min</h5>
-              </div>
-            </div>
+              </li>
+            </ul>
+          </section>
 <!-- row 2 -->
-            <div class="wrapper">
-              <div class="bus-line eastbound">
+      <section class="row">
+            <ul class="wrapper">
+              <li class="bus-line eastbound">
                 <h2>124</h2>
-              </div>
+              </li>
 
-              <div class="destination">
+              <li class="destination">
                 <h1>Navy Pier</h1>
                 <h5>Eastbound</h5>
-              </div>
+              </li>
 
-              <div class="arrival-frequency">
-                <h1>6min</h1>
+              <li class="arrival-frequency">
+                <h1>6 min</h1>
                 <h5>Every 10 min</h5>
-              </div>
-            </div>
+              </li>
+            </ul>
+        </section>
 <!-- row 3 -->
-            <div class="wrapper">
-              <div class="bus-line northbound">
+        <section class="row">
+            <ul class="wrapper">
+              <li class="bus-line northbound">
                 <h2>151</h2>
-              </div>
+              </li>
 
-              <div class="destination">
+              <li class="destination">
                 <h1>Devon/Clark</h1>
                 <h5>Northbound</h5>
-              </div>
+              </li>
 
-              <div class="arrival-frequency">
-              <h1>9min</h1>
+              <li class="arrival-frequency">
+              <h1>9 min</h1>
                 <h5>Every 16 min</h5>
-              </div>
-            </div>
+              </li>
+            </ul>
+          </section>
 
 <!-- row 4 -->
-            <div class="wrapper">
-              <div class="bus-line southbound">
+        <section class="row">
+            <ul class="wrapper">
+              <li class="bus-line southbound">
                 <h2>J14</h2>
-              </div>
+              </li>
 
-              <div class="destination">
+              <li class="destination">
                 <h1>103rd/Stony Island</h1>
                 <h5>Southbound</h5>
-              </div>
+              </li>
 
-              <div class="arrival-frequency">
+              <li class="arrival-frequency">
                 <h1>11min</h1>
                 <h5>Every 15 min</h5>
-              </div>
-            </div>
+              </li>
+            </ul>
+        </section>
 <!-- row 5 -->
-            <div class="wrapper">
-              <div class="bus-line southbound">
+        <section class="row">
+            <ul class="wrapper">
+              <li class="bus-line southbound">
                 <h2>124</h2>
-              </div>
+              </li>
 
-              <div class="destination">
+              <li class="destination">
                 <h1>Navy Pier</h1>
                 <h5>Southbound</h5>
-              </div>
+              </li>
 
-              <div class="arrival-frequency">
-                <h1>13min</h1>
+              <li class="arrival-frequency">
+                <h1>13 min</h1>
                 <h5>Every 10 min</h5>
-              </div>
-            </div>
+              </li>
+            </ul>
+        </section>
 
 <!-- row 6 -->
-            <div class="wrapper">
-              <div class="bus-line reroute">
+          <section class="row">
+            <ul class="wrapper">
+              <li class="bus-line reroute">
                   <h2>6x</h2>
-              </div>
+              </li>
 
-              <div class="destination alert1">
+              <li class="destination alert1">
                 <h1>Jackson Park Express</h1>
                 <h5>Reroute</h5>
-              </div>
+              </li>
 
-              <div id="frequency">
+              <li id="frequency">
                 <h1>N/A</h1>
-              </div>
-            </div>
+              </li>
+            </ul>
+          </section>
 
 <!-- row 7 -->
-            <div class="wrapper">
-                <div class="bus-line interruption">
+          <section class="row">
+            <ul class="wrapper">
+                <li class="bus-line interruption">
                   <h2>4</h2>
-                </div>
+                </li>
 
-                <div class="destination alert2">
+                <li class="destination alert2">
                   <h1>Cottage Grove</h1>
                   <h5>Out of Service</h5>
-                </div>
+                </li>
 
-                <div class="arrival-frequency">
+                <li class="arrival-frequency">
                   <h1>N/A</h1>
                   <h5>Resumes 12:10 am</h5>
-                </div>
-              </div>
+                </li>
+              </ul>
+            </section>
 
 <!-- row 8 -->
-            <div class="wrapper">
-                <div class="bus-line interruption">
+          <section class="row">
+            <ul class="wrapper">
+                <li class="bus-line interruption">
                   <h2>20</h2>
-                </div>
+                </li>
 
-                <div class="destination alert2">
+                <li class="destination alert2">
                   <h1>Madison</h1>
                   <h5>Out of Service</h5>
-                </div>
+                </li>
 
-                <div class="arrival-frequency">
+                <li class="arrival-frequency">
                   <h1>N/A</h1>
                   <h5>Resumes 12:10 am</h5>
-                </div>
-              </div>
-
+                </li>
+              </ul>
+            </section>
+            
 <!-- row 9 -->
-              <div class="wrapper">
-                <div class="bus-line interruption">
+          <section class="row">
+              <ul class="wrapper">
+                <li class="bus-line interruption">
                   <h2>157</h2>
-                </div>
+                </li>
 
-                <div class="destination alert2">
+                <li class="destination alert2">
                   <h1>Streeterville/Taylor</h1>
                   <h5>Out of Service</h5>
-                </div>
+                </li>
 
-                <div class="arrival-frequency">
+                <li class="arrival-frequency">
                   <h1>N/A</h1>
                   <h5>Resumes 6:00 am</h5>
-                </div>
-              </div>
-
-
-          </section>
+                </li>
+              </ul>
+            </section>
           </section>
   </body>
   </html>
