@@ -129,32 +129,36 @@ h5 {
   padding-right:10px;
   width: 12%;
 }
+
+#frequency h1 {
+  color: #E33131;
+}
 /** bus number **/
 .bus-line h2 {
   font-size: 1.6em;
   color: white;
 }
 
-.northbound {
-  background-color: #FF7A00;
+.bus-line {
+  background-color: #606597;
 }
 
-.southbound {
-  background-color:#6DC1EB;
-}
-
-.reroute {
-  background-color:#E33131;
-}
-
-.interruption {
-  background-color: #ED02D5;
+.alert1 h1 {
+  color: #E33131;
 }
 
 .alert1 h5 {
-  color: #007AFF;
+  color: #E33131;
+}
+
+.alert2 h1 {
+  color: #929292;
 }
 
 .alert2 h5 {
-  color: red;
+  color: #929292;
+}
+
+.interruption h1 {
+  color: #929292;
 }
